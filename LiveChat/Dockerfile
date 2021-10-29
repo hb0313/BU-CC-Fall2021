@@ -16,8 +16,11 @@ VOLUME ["/data/db"]
 #Declare working directory
 WORKDIR /data
 
-#Default command 
-CMD ["mongod"]
+#Default entrypoint 
+ENTRYPOINT ["mongod"]
+
+#Bind all ip address to allow remote connection
+CMD ["--bind_ip_all"]
 
 #Expose port
 EXPOSE 27017
