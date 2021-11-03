@@ -20,12 +20,12 @@ Microservices and Orchestration via building a simple two-tier live chat microse
 
 ### Live chat using docker container:
 ```
-#Start mongodb container
-$ cd mongodb
-$ sudo make run
-#Start webserver container
-$ cd webserver
-$ sudo make run
+    #Start mongodb container
+    $ cd mongodb
+    $ sudo make run
+    #Start webserver container
+    $ cd webserver
+    $ sudo make run
 ```
 
 ### Live chat using minikube
