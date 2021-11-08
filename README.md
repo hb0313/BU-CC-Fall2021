@@ -10,7 +10,7 @@ Microservices and Orchestration via building a simple two-tier live chat microse
 
 #### Live chat on native:
 
-```
+```sh
     #Start Mongodb in background
     $ sudo mongod --bind_ip=0.0.0.0 &
     #Run the webserver
@@ -19,7 +19,8 @@ Microservices and Orchestration via building a simple two-tier live chat microse
 - Navigate to http://external_ip:8080/
 
 ### Live chat using docker container:
-```
+
+```sh
     #Start mongodb container
     $ cd mongodb
     $ sudo make run
@@ -28,4 +29,3 @@ Microservices and Orchestration via building a simple two-tier live chat microse
     $ sudo make run
 ```
 
-### Live chat using minikube
